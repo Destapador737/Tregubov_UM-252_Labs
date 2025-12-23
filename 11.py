@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox, filedialog, Menu
 
 # Создаем главное окно
 root = tk.Tk()
-root.title("Иванов Иван Иванович - GUI приложение")  # ФИО автора
+root.title("ТрегубовВО_УМ252 - GUI приложение")  
 root.geometry("800x600")
 root.resizable(True, True)
 
@@ -212,3 +212,4 @@ ttk.Label(info_frame, text="Практическая работа 11: GUI",
 
 # Запуск главного цикла
 root.mainloop()
+
